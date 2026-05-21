@@ -105,36 +105,36 @@ Table 2 presents the recommended prefixes and iconic notations used in the AI-ES
 
 | **Name**             | **Prefix** | **Iconic Representation**                                        |
 | -------------------- | ---------- | ---------------------------------------------------------------- |
-| Intent               | IT         | ![Intent](https://github.com/seniorgu/ai-esa/blob/main/images/IT.png "Intent")                             |
+| Intent               | IT         | ![Intent](../images/images/IT.png "Intent")                             |
 | Capability           | CP         | ![Capability](../images/CP.png "Capability")                     |
-| Requirement          | RQ         | ![Requirement](..\images\RQ.png "Requirement")                   |
-| Governance           | GV         | ![Governance](..\images\GV.png "Governance")                     |
-| Decision             | KC         | ![Decision](..\images\KC.png "Decision")                         |
-| Access Interface     | UI         | ![Access Interface](..\images\UI.png "Access Interface")         |
-| Application          | AP         | ![Application](..\images\AP.png "Application")                   |
-| App Logic            | AS         | ![App Logic](..\images\AS.png "App Logic")                       |
-| Data Service         | DS         | ![Data Service](..\images\DS.png "Data Service")                 |
-| Technical Component  | TS         | ![Technical Component](..\images\TS.png "Technical Component")   |
-| Interface Contract   | SI         | ![Interface Contract](..\images\SI.png "Interface Contract")     |
-| AI Agent             | AG         | ![AI Agent](..\images\AG.png "AI Agent")                         |
+| Requirement          | RQ         | ![Requirement](../images/RQ.png "Requirement")                   |
+| Governance           | GV         | ![Governance](../images/GV.png "Governance")                     |
+| Decision             | KC         | ![Decision](../images/KC.png "Decision")                         |
+| Access Interface     | UI         | ![Access Interface](../images/UI.png "Access Interface")         |
+| Application          | AP         | ![Application](../images/AP.png "Application")                   |
+| App Logic            | AS         | ![App Logic](../images/AS.png "App Logic")                       |
+| Data Service         | DS         | ![Data Service](../images/DS.png "Data Service")                 |
+| Technical Component  | TS         | ![Technical Component](../images/TS.png "Technical Component")   |
+| Interface Contract   | SI         | ![Interface Contract](../images/SI.png "Interface Contract")     |
+| AI Agent             | AG         | ![AI Agent](../images/AG.png "AI Agent")                         |
 | AI Orchestrator      | AC         | ![AI Orchestrator](https://github.com/seniorgu/ai-esa/blob/main/images/AC.png "AI Orchestrator")           |
-| Context State        | CN         | ![Context State](..\images\CN.png "Context State")               |
-| AI Model             | ML         | ![AI Model](..\images\ML.png "AI Model")                         |
-| Knowledge Service    | KA         | ![Knowledge Service](..\images\KA.png "Knowledge Service")       |
-| AI/ML Lifecycle      | AL         | ![AI/ML Lifecycle](..\images\AL.png "AI/ML Lifecycle")           |
-| Tool                 | TL         | ![Tool](..\images\TL.png "Tool")                                 |
-| Data Store           | DB         | ![Data Store](..\images\DB.png "Data Store")                     |
-| Deployment Package   | DP         | ![Deployment Package](..\images\DP.png "Deployment Package")     |
-| Node                 | ND         | ![Node](..\images\ND.png "Node")                                 |
-| Quality & Adaptation | QV         | ![Quality & Adaptation](..\images\QV.png "Quality & Adaptation") |
-| Governance Control   | GO         | ![Governance Control](..\images\GO.png "Governance Control")     |
-| Middleware           | MW         | ![Middleware](..\images\MW.png "Middleware")                     |
-| Grouping             | GP         | ![Group](..\images\GP.png "Group")                               |
-| Role                 | RO         | ![Role](..\images\RO.png "Role")                                 |
-| Task                 | TK         | ![Task](..\images\TK.png "Task")                                 |
-| Input                | IN         | ![Input](..\images\IN.png "Input")                               |
-| Output               | OU         | ![Output](..\images\OU.png "Output")                             |
-| Note                 | NT         | ![Note](..\images\NT.png "Note")                                 |
+| Context State        | CN         | ![Context State](../images/CN.png "Context State")               |
+| AI Model             | ML         | ![AI Model](../images/ML.png "AI Model")                         |
+| Knowledge Service    | KA         | ![Knowledge Service](../images/KA.png "Knowledge Service")       |
+| AI/ML Lifecycle      | AL         | ![AI/ML Lifecycle](../images/AL.png "AI/ML Lifecycle")           |
+| Tool                 | TL         | ![Tool](../images/TL.png "Tool")                                 |
+| Data Store           | DB         | ![Data Store](../images/DB.png "Data Store")                     |
+| Deployment Package   | DP         | ![Deployment Package](../images/DP.png "Deployment Package")     |
+| Node                 | ND         | ![Node](../images/ND.png "Node")                                 |
+| Quality & Adaptation | QV         | ![Quality & Adaptation](../images/QV.png "Quality & Adaptation") |
+| Governance Control   | GO         | ![Governance Control](../images/GO.png "Governance Control")     |
+| Middleware           | MW         | ![Middleware](../images/MW.png "Middleware")                     |
+| Grouping             | GP         | ![Group](../images/GP.png "Group")                               |
+| Role                 | RO         | ![Role](../images/RO.png "Role")                                 |
+| Task                 | TK         | ![Task](../images/TK.png "Task")                                 |
+| Input                | IN         | ![Input](../images/IN.png "Input")                               |
+| Output               | OU         | ![Output](../images/OU.png "Output")                             |
+| Note                 | NT         | ![Note](../images/NT.png "Note")                                 |
 
 *Table 2: AI-ESA Element Representative Notation*
 
@@ -207,7 +207,7 @@ Note that for focused *AI Enterprise Solution Architecture* modeling, certain el
 
 The AI-ESA conceptual metamodel (Figure 1) defines architectural meaning and abstraction relationships.
 
-![AI-ESA Conceptual Metamodel](..\images\ai-esa-conceptural-metamodel.png "AI-ESA Conceptual Metamodel")
+![AI-ESA Conceptual Metamodel](../images/ai-esa-conceptural-metamodel.png "AI-ESA Conceptual Metamodel")
 
 *Figure 1: AI-ESA Conceptual Metamodel*
 
@@ -215,7 +215,7 @@ The AI-ESA conceptual metamodel (Figure 1) defines architectural meaning and abs
 
 The AI-ESA logical metamodel (Figure 2) defines operational interaction and runtime collaboration. 
 
-![AI-ESA Logical Metamodel](..\images\ai-esa-logical-metamodel.png "AI-ESA Logical Metamodel")
+![AI-ESA Logical Metamodel](../images/ai-esa-logical-metamodel.png "AI-ESA Logical Metamodel")
 
 *Figure 2: AI-ESA Logical Metamodel*
 
@@ -223,7 +223,7 @@ The AI-ESA logical metamodel (Figure 2) defines operational interaction and runt
 
 The AI-ESA schema model (Figure 3) defines implementable structural metadata and tool interoperability.
 
-![AI-ESA Schema Model](..\images\ai-esa-schema.png "AI-ESA Schema Model")
+![AI-ESA Schema Model](../images/ai-esa-schema.png "AI-ESA Schema Model")
 
 *Figure 3: AI-ESA Schema Model*
 
