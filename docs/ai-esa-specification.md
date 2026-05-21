@@ -117,7 +117,7 @@ Table 2 presents the recommended prefixes and iconic notations used in the AI-ES
 | Technical Component  | TS         | ![Technical Component](..\images\TS.png "Technical Component")   |
 | Interface Contract   | SI         | ![Interface Contract](..\images\SI.png "Interface Contract")     |
 | AI Agent             | AG         | ![AI Agent](..\images\AG.png "AI Agent")                         |
-| AI Orchestrator      | AC         | ![AI Orchestrator](.\images\AC.png "AI Orchestrator")           |
+| AI Orchestrator      | AC         | ![AI Orchestrator](https://github.com/seniorgu/ai-esa/blob/main/images/AC.png "AI Orchestrator")           |
 | Context State        | CN         | ![Context State](..\images\CN.png "Context State")               |
 | AI Model             | ML         | ![AI Model](..\images\ML.png "AI Model")                         |
 | Knowledge Service    | KA         | ![Knowledge Service](..\images\KA.png "Knowledge Service")       |
