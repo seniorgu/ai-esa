@@ -105,7 +105,7 @@ Table 2 presents the recommended prefixes and iconic notations used in the AI-ES
 
 | **Name**             | **Prefix** | **Iconic Representation**                                        |
 | -------------------- | ---------- | ---------------------------------------------------------------- |
-| Intent               | IT         | ![Intent](../images/images/IT.png "Intent")                             |
+| Intent               | IT         | ![Intent](../images/IT.png "Intent")                             |
 | Capability           | CP         | ![Capability](../images/CP.png "Capability")                     |
 | Requirement          | RQ         | ![Requirement](../images/RQ.png "Requirement")                   |
 | Governance           | GV         | ![Governance](../images/GV.png "Governance")                     |
