@@ -1,4 +1,4 @@
-# AASA (AI-Augmented Solution Architecture) Approach
+# AI-ESA (AI Enterprise Solution Architecture) Model Specification
 
 Many organizations have moved beyond simple querying and exploration. The real issue is **enterprise-wide adoption and absorption of AI**. As AI solutions scale across the enterprise, they require a clear architectural model to guide direction, redesign, and long-term sustainability.
 
