@@ -12,7 +12,7 @@ Enterprise architecture (EA) is increasingly becoming a context curator, heavily
 
 ### Objective
 
-AI-ESA extends the ESA modeling approach (also referred to as Agile ESA, abbreviated as AESA or A-ESA)  to support enterprise-grade AI solution architecture. It has the following objectives:
+AI-ESA (loosly named AI-SA) extends the ESA modeling approach (also referred to as Agile ESA, abbreviated as AESA or A-ESA)  to support enterprise-grade AI solution architecture. It has the following objectives:
 
 - **Holistic view:** ESA adopts a holistic architectural approach to identify, validate, and govern implicit requirements and non-trivial concerns that are not easily measurable. It aims to achieve architectural sustainability through a simple yet effective set of elements that support holistic consideration of architectural characteristics such as granularity, layering, and coupling.
 

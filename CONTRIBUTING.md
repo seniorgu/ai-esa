@@ -21,23 +21,11 @@ When opening an issue, include as much detail as possible.
 
 ---
 
-## Pull Requests
-
-Direct contributions are always welcome through pull requests. 
-
----
-
 # Contribution Guidelines
 
 ## Check Existing Issues
 
 Before starting major work, check whether a related issue or discussion already exists.
-
----
-
-## Keep Pull Requests Focused
-
-Small, focused pull requests are easier to review and merge.
 
 ---
 
