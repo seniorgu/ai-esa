@@ -1,49 +1,49 @@
-# Relationship of the AI-ESA Model Specification to AISA and AASA
+# Relationship of the AIS Model Specification to AIS and AIS+ Architectures
 
-This section briefly describes the relationship among AI-ESA (AI Enterprise Solution Architecture Model Specification), AISA (AI Solution Architecture Approach & Pattern), and AASA (AI-Augmented Solution Architecture Approach). Figure 1 shows the overall relationship.
+This section briefly describes the relationship among AIS (AI Solution) model specification, AIS architecture (AI Solution Architecture Approach & Pattern), and AIS+ architecture (AI-Augmented Solution Architecture Approach). Figure 1 shows the overall relationship.
 
 ![Relationship of the AI-ESA Model Specification to AISA and AASA](images/relationship-among-ai-esa-aisa-aasa.png "Relationship of the AI-ESA Model Specification to AISA and AASA")
 
-*Figure 1: Relationship among AI-ESA, AISA and AASA*
+*Figure 1: Relationship among AIS model, AIS arch and AIS+ arch*
 
-## AI-ESA’s Emphasis on AISA and AASA
+## Model’s Emphasis on AIS and AIS+
 
-The AI-ESA elements are used in both AISA and AASA, but they differ in terms of primary emphasis, architectural centrality, and operational dominance. Table 1 illustrates how elements are prioritized across AISA and AASA, categorized as primary, secondary, or shared/foundation elements.
+The AIS elements are used in both AIS and AIS+ architecture, but they differ in terms of primary emphasis, architectural centrality, and operational dominance. Table 1 illustrates how elements are prioritized across AIS arch and AIS+ arch, categorized as primary, secondary, or shared/foundation elements.
 
-| **Element**          | **AISA Emphasis** | **AASA Emphasis** | **Notes**                                        |
-| -------------------- | ----------------- | ----------------- | ------------------------------------------------ |
-| Intent               | Secondary         | **Primary**       | Enterprise alignment stronger in AASA            |
-| Capability           | Shared            | **Primary**       | Enterprise capability mapping emphasized in AASA |
-| Requirement          | Shared            | Shared            | Core architectural concern                       |
-| Governance           | Secondary         | **Primary**       | AASA governance-centric                          |
-| Decision             | Shared            | **Primary**       | Enterprise trade-offs emphasized in AASA         |
-| Access Interface     | Shared            | Shared            | Human interaction remains essential              |
-| Application          | Shared            | **Primary**       | Still important in AI-native systems             |
-| App Logic            | Shared            | **Primary**       | Deterministic orchestration remains necessary    |
-| Data Service         | Shared            | **Primary**       | Enterprise integration and data continuity       |
-| Technical Component  | Shared            | **Primary**       | Enterprise operational infrastructure            |
-| AI Agent             | **Primary**       | Shared            | Core architectural primitive in AISA             |
-| AI Coordinator       | **Primary**       | Shared            | Agent orchestration emphasis in AISA             |
-| Context State        | **Primary**       | Shared            | Critical for AI interaction continuity           |
-| AI Model             | **Primary**       | Shared            | Core AI runtime capability                       |
-| Knowledge Service    | **Primary**       | Shared            | RAG/context grounding emphasis                   |
-| AI/ML Lifecycle      | **Primary**       | Secondary         | AI operational lifecycle focus                   |
-| Autonomous Tool      | **Primary**       | Secondary         | Tool invocation more central in AISA             |
-| Data Store           | Shared            | Shared            | Foundational                                     |
-| Deployment Package   | Shared            | Shared            | Runtime operationalization                       |
-| Node                 | Shared            | Shared            | Infrastructure/runtime                           |
-| Quality & Adaptation | **Primary**       | Shared            | Continuous learning emphasis in AISA             |
-| Governance Control   | Shared            | **Primary**       | Operational governance emphasis in AASA          |
-| Interface Contract   | Shared            | **Primary**       | Enterprise interoperability                      |
-| Middleware           | Secondary         | **Primary**       | Enterprise integration layer                     |
-| Group                | Shared            | Shared            | Structural organization                          |
-| Role                 | Secondary         | **Primary**       | Organizational alignment emphasis                |
-| Task                 | Secondary         | **Primary**       | Operational/business workflow emphasis           |
-| Input                | **Primary**       | Shared            | AI interaction/input-centric                     |
-| Output               | **Primary**       | Shared            | AI-generated output emphasis                     |
-| Note                 | Shared            | Shared            | Documentation/support                            |
+| **Element**          | **AIS Arch Emphasis** | ** Emphasis** | **Notes**                                                     |
+| -------------------- | --------------------- | ------------- | ------------------------------------------------------------- |
+| Intent               | Secondary             | **Primary**   | Enterprise alignment stronger in AI-augmented arch            |
+| Capability           | Shared                | **Primary**   | Enterprise capability mapping emphasized in AI-augmented arch |
+| Requirement          | Shared                | Shared        | Core architectural concern                                    |
+| Governance           | Secondary             | **Primary**   | AI-augmented arch governance-centric                          |
+| Decision             | Shared                | **Primary**   | Enterprise trade-offs emphasized in AI-augmented arch         |
+| Access Interface     | Shared                | Shared        | Human interaction remains essential                           |
+| Application          | Shared                | **Primary**   | Still important in AI-native systems                          |
+| App Logic            | Shared                | **Primary**   | Deterministic orchestration remains necessary                 |
+| Data Service         | Shared                | **Primary**   | Enterprise integration and data continuity                    |
+| Technical Component  | Shared                | **Primary**   | Enterprise operational infrastructure                         |
+| AI Agent             | **Primary**           | Shared        | Core architectural primitive in AI-native arch                |
+| AI Coordinator       | **Primary**           | Shared        | Agent orchestration emphasis in AI-native arch                |
+| Context State        | **Primary**           | Shared        | Critical for AI interaction continuity                        |
+| AI Model             | **Primary**           | Shared        | Core AI runtime capability                                    |
+| Knowledge Service    | **Primary**           | Shared        | RAG/context grounding emphasis                                |
+| AI/ML Lifecycle      | **Primary**           | Secondary     | AI operational lifecycle focus                                |
+| Autonomous Tool      | **Primary**           | Secondary     | Tool invocation more central in AI-native arch                |
+| Data Store           | Shared                | Shared        | Foundational                                                  |
+| Deployment Package   | Shared                | Shared        | Runtime operationalization                                    |
+| Node                 | Shared                | Shared        | Infrastructure/runtime                                        |
+| Quality & Adaptation | **Primary**           | Shared        | Continuous learning emphasis in AI-native arch                |
+| Governance Control   | Shared                | **Primary**   | Operational governance emphasis in AI-augmented arch          |
+| Interface Contract   | Shared                | **Primary**   | Enterprise interoperability                                   |
+| Middleware           | Secondary             | **Primary**   | Enterprise integration layer                                  |
+| Group                | Shared                | Shared        | Structural organization                                       |
+| Role                 | Secondary             | **Primary**   | Organizational alignment emphasis                             |
+| Task                 | Secondary             | **Primary**   | Operational/business workflow emphasis                        |
+| Input                | **Primary**           | Shared        | AI interaction/input-centric                                  |
+| Output               | **Primary**           | Shared        | AI-generated output emphasis                                  |
+| Note                 | Shared                | Shared        | Documentation/support                                         |
 
-*Table 1: AI-ESA's emphasis on AISA and AASA*
+*Table 1: Model's emphasis on AI-native arch and AI-augmented arch*
 
 Note that AI-native does NOT mean "pure agents," or "everything autonomous."
 
@@ -55,13 +55,13 @@ Real enterprise AI solutions still need:
 
 - Observability and operational control.
 
-Both AISA and AASA approaches use the AI-ESA element specification for modeling. AISA focuses on AI-native and AI-primitive patterns, whereas AASA emphasizes AI-augmented solution architecture.
+Both AIS arch and AIS+ arch approaches use the AIS element specification for modeling. AIS arch focuses on AI-native and AI-primitive patterns, whereas AIS+ emphasizes AI-augmented solution architecture.
 
 ### Shared Core
 
-Both AISA and AASA use the AI-ESA element specification and share a common semantic architectural foundation:
+Both AIS and AIS architectures use the AIS element specification and share a common semantic architectural foundation:
 
-- AI-ESA semantics
+- AIS semantics
 
 - element taxonomy
 
@@ -73,9 +73,9 @@ Both AISA and AASA use the AI-ESA element specification and share a common seman
 
 ### Key Differences
 
-Table 2 summarizes the key differences between AISA (AI Solution Architecture) and AASA (AI-Augmented Solution Architecture) in their respective AI adoption strategies.
+Table 2 summarizes the key differences between AIS (AI Solution Architecture) and AIS+ (AI-Augmented Solution Architecture) in their respective AI adoption strategies.
 
-| **Aspect**                     | **AISA (AI Solution Architecture)**                                    | **AASA (AI-Augmented Solution Architecture)**                                                   |
+| **Aspect**                     | **AIS (AI Solution Architecture)**                                     | **AIS+ (AI-Augmented Solution Architecture)**                                                   |
 | ------------------------------ | ---------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
 | Primary Orientation            | AI-native execution orientation                                        | Enterprise coexistence orientation                                                              |
 | Core Philosophy                | AI-first operationalization                                            | Gradual AI absorption and coexistence                                                           |
@@ -85,16 +85,16 @@ Table 2 summarizes the key differences between AISA (AI Solution Architecture) a
 | Enterprise Strategy            | Designed around AI-native solution patterns                            | Designed around enterprise integration and continuity                                           |
 | Governance Emphasis            | Validation, adaptation, and learning loops                             | Governance control, integration assurance, and operational sustainability                       |
 | Relationship to AI Engineering | Much closer association with AI system engineering                     | More aligned with enterprise business and operational architecture                              |
-| Relationship Between Them      | Defines AI-native patterns and operational approaches                  | Likely utilizes AISA patterns within enterprise environments                                    |
+| Relationship Between Them      | Defines AI-native patterns and operational approaches                  | Likely utilizes AI-natvie patterns within enterprise environments                               |
 | Typical Environment            | AI-centric or AI-driven solution ecosystems                            | Heterogeneous enterprise ecosystems with mixed technologies                                     |
 | Audience                       | AI architects, AI engineers, solution architects, AI platform teams    | Enterprise architects, enterprise solution architects, governance teams, transformation leaders |
 | Architectural Style            | AI-native and orchestration-centric                                    | Augmented, integrated, hybrid, and coexistence-centric                                          |
 
-*Table 2: Key differences between AISA and AASA*
+*Table 2: Key differences between AISand AIS+*
 
 Or, more simply, their differences can be expressed as follows:
 
-**AISA**
+**AIS arch**
 
 - AI-native operational emphasis
 
@@ -104,7 +104,7 @@ Or, more simply, their differences can be expressed as follows:
 
 - agent-first abstraction
 
-**AASA**
+**AIS+ arch**
 
 - enterprise coexistence
 
@@ -114,4 +114,44 @@ Or, more simply, their differences can be expressed as follows:
 
 - operational continuity
 
-In summary, AI-ESA serves as the foundational specification and semantic abstraction. AISA represents an AI-native architectural operationalization approach. AASA, in contrast, is an enterprise architecture focused on AI coexistence and augmentation.
+In summary, AIS model serves as the foundational specification and semantic abstraction. AIS represents an AI-native architectural operationalization approach. AIS+, in contrast, is an enterprise architecture focused on AI coexistence and augmentation.
+
+## About AIS Naming
+
+AIS (AI Solution) is a generic architectural language and framework family used to describe the AIS ecosystem, its foundational model, and its architectural approaches.
+
+Within this context:
+
+- **AIS** = the umbrella framework and ecosystem
+
+- **AIS Model** = the foundational specification and reference model
+
+- **AIS Arch** = the AI-native architectural domain, approach, and practice
+
+- **AIS+** = the adaptive, integrative, and AI-augmented architectural extension approach
+
+For terminology alignment and continuity, AIS-related concepts may also be referred to as:
+
+- **AI-ESA** (AI Enterprise Solution Architecture), referring to the AIS model or framework foundation
+
+- **AISA** (AI Solution Architecture), referring to AIS Arch
+
+- **AASA** (AI-Augmented Solution Architecture), referring to AIS+
+
+In general usage, **AIS** represents the overall architectural language, framework family, and associated architectural landing approaches.
+
+## FAQ (Frequently Asked Questions)
+
+### AIS vs. AI System Architecture
+
+System architecture is primarily a technical architecture, whereas AIS incorporates intent and metrics, introducing a higher level of abstraction to capture key architectural concerns end-to-end. In short:
+
+- AI system architecture = technical system composition
+
+- AIS = enterprise solution architecture abstraction for AI ecosystems
+
+### ESA vs. SA (Solution Architecture)
+
+For simplicity, ESA (Enterprise Solution Architecture) is often abbreviated as SA (Solution Architecture). In AIS, the S refers to SA but typically refers to ESA (Enterprise Solution Architecture), since AIS is primarily applied to enterprise solutions. Whether a solution is considered enterprise-grade depends on its scale, complexity, and organizational impact.
+
+In this document, AIS may also be referred to as AIA (AI Architecture) when it effectively represents a solution architecture context.

@@ -1,4 +1,4 @@
-# AI Enterprise Solution Architecture (AI-ESA) Model Specification
+# AI Solution (AIS) Architecture Model Specification
 
 ---
 
@@ -12,11 +12,11 @@ Enterprise architecture (EA) is increasingly becoming a context curator, heavily
 
 ### Objective
 
-AI-ESA (loosly named AI-SA) extends the ESA modeling approach (also referred to as Agile ESA, abbreviated as AESA or A-ESA)  to support enterprise-grade AI solution architecture. It has the following objectives:
+AIS (also referred to as AI-ESA) is based on the enterprise solution architecture (ESA) modeling approach (also referred to as Agile ESA, abbreviated as AESA or A-ESA)  to support enterprise-grade AI solution architecture. It has the following objectives:
 
-- **Holistic view:** ESA adopts a holistic architectural approach to identify, validate, and govern implicit requirements and non-trivial concerns that are not easily measurable. It aims to achieve architectural sustainability through a simple yet effective set of elements that support holistic consideration of architectural characteristics such as granularity, layering, and coupling.
+- **Holistic view:** The AIS adopts a holistic architectural approach to identify, validate, and govern implicit requirements and non-trivial concerns that are not easily measurable. It aims to achieve architectural sustainability through a simple yet effective set of elements that support holistic consideration of architectural characteristics such as granularity, layering, and coupling.
 
-- **AI-human collaborative modeling:** The AI-ESA model facilitates architectural thinking and enables more effective collaboration between humans and AI at the appropriate level of architectural abstraction, allowing both to operate through a common language that captures key solution architecture concerns. Importantly, the model is intended primarily to support human understanding and decision-making. For smaller or easily understandable solutions, AI-ESA may not be necessary.
+- **AI-human collaborative modeling:** The AIS model facilitates architectural thinking and enables more effective collaboration between humans and AI at the appropriate level of architectural abstraction, allowing both to operate through a common language that captures key solution architecture concerns. Importantly, the model is intended primarily to support human understanding and decision-making. For smaller or easily understandable solutions, AIS may not be necessary.
 
 - **Architectural validation and conformance:**
   
@@ -28,13 +28,13 @@ AI-ESA (loosly named AI-SA) extends the ESA modeling approach (also referred to 
 
 ---
 
-## Modeling Approach 
+## Modeling Approach
 
-AI-ESA follows the ESA modeling approach, which consists of six constituents: thinking framework, method specification (foundation specification), architectural styles, measurement criteria, governance techniques, and tool support derived from practical enterprise solution projects (see *References*). This document focuses only on the AI-ESA element specification, which is a subset of the broader ESA modeling approach.
+AIS follows its foundational ESA modeling approach, which consists of six constituents: thinking framework, method specification (foundation specification), architectural styles, measurement criteria, governance techniques, and tool support derived from practical enterprise solution projects (see *References*). This document focuses only on the AIS element specification, which is a subset of the broader ESA modeling approach.
 
 ### Principle
 
-ESA advocates the S3 principle: *Systematics* rooted in *Simplicity* and *Significance*.
+AIS advocates the S3 principle: *Systematics* rooted in *Simplicity* and *Significance*.
 
 - **Systematic**: correlation and coherence across all primitive elements 
 
@@ -42,7 +42,7 @@ ESA advocates the S3 principle: *Systematics* rooted in *Simplicity* and *Signif
 
 - **Significant**: focused on significant architectural concerns rather than detailed solution views
 
-The S3 principle serves as the governing philosophy of the ESA specification. It also provides the evaluation criteria for solution architecture and the heuristics for architectural modeling. 
+The S3 principle serves as the governing philosophy of the AIS specification. It also provides the evaluation criteria for solution architecture and the heuristics for architectural modeling. 
 
 ### Modeling Rule
 
@@ -56,13 +56,13 @@ The S3 principle serves as the governing philosophy of the ESA specification. It
 
 ---
 
-## Element Specification 
+## Element Specification
 
-As part of the ESA specification, AI-ESA inherits many core ESA elements while introducing AI-specific elements. To maintain simplicity, the total number of elements is intentionally kept minimal while still addressing both primitive constructs and higher levels of architectural abstraction. At the same time, AI-ESA is designed to function as a stand-alone specification, sufficient for general enterprise AI solution architecture purposes.
+As part of the ESA specification, AIS inherits many core ESA elements while introducing AI-specific elements. To maintain simplicity, the total number of elements is intentionally kept minimal while still addressing both primitive constructs and higher levels of architectural abstraction. At the same time, AIS is designed to function as a stand-alone specification, sufficient for general enterprise AI solution architecture purposes.
 
 ### Element Definition
 
-Table 1 provides a brief definition of 30 AI-ESA elements, usage examples or instance-level representations.
+Table 1 provides a brief definition of 30 AIS elements, usage examples or instance-level representations.
 
 | **Element Name**     | **Definition**                                                                                                                                       | **Instance / Usage Example**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -97,11 +97,11 @@ Table 1 provides a brief definition of 30 AI-ESA elements, usage examples or ins
 | Output               | Represents the results, recommendations, and responses produced by the solution.                                                                     | Generated artifacts, predictions, recommendations, confirmations, decisions, reports, notifications, feedback to users, and results produced by the solution.                                                                                                                                                                                                                                                                                                                                                       |
 | Note                 | Represents commentary, annotation, or interpretive explanation of the architecture.                                                                  | Clarifying comments on complex interactions, interpretive notes, and contextual explanations added to views for enhanced communication.                                                                                                                                                                                                                                                                                                                                                                             |
 
-*Table 1:  AI-ESA Element Definition*
+*Table 1:  AIS Element Definition*
 
 ### Element Representative Notation
 
-Table 2 presents the recommended prefixes and iconic notations used in the AI-ESA specification.
+Table 2 presents the recommended prefixes and iconic notations used in the AIS specification.
 
 | **Name**             | **Prefix** | **Iconic Representation**                                     |
 | -------------------- | ---------- | ------------------------------------------------------------- |
@@ -136,11 +136,11 @@ Table 2 presents the recommended prefixes and iconic notations used in the AI-ES
 | Output               | OU         | ![Output](images/OU.png "Output")                             |
 | Note                 | NT         | ![Note](images/NT.png "Note")                                 |
 
-*Table 2: AI-ESA Element Representative Notation*
+*Table 2: AIS Element Representative Notation*
 
 ### Element Category & Naming
 
-AI-ESA element layering and categorization follow an agile approach to support simple and adaptable modeling adoption. Elements can be grouped according to practical or organizational needs. Common categories include three typical element levels:
+AIS element layering and categorization follow an agile approach to support simple and adaptable modeling adoption. Elements can be grouped according to practical or organizational needs. Common categories include three typical element levels:
 
 - Intent & Metrics Elements
 
@@ -150,9 +150,9 @@ AI-ESA element layering and categorization follow an agile approach to support s
 
 For AI enterprise solutions, *integration elements* (such as Middleware, Interfact Contract, and Message event) are often categorized independently. They represent a cross-cutting set of elements spanning both functional and operational categories.
 
-For general AI solution architecture, the ESA-specified element names and prefixes are recommended. However, ESA naming remains flexible, and alternative names or prefixes may be used to better align with organizational conventions or habitual understanding.
+For general AI solution architecture, the AIS-specified element names and prefixes are recommended. However, AIS naming remains flexible, and alternative names or prefixes may be used to better align with organizational conventions or habitual understanding.
 
-Table 3 shows the commonly-used AI-ESA categories and naming.
+Table 3 shows the commonly-used AIS categories and naming.
 
 | **Category**           | **Name**             | **Other Names**                |
 | ---------------------- | -------------------- | ------------------------------ |
@@ -187,11 +187,11 @@ Table 3 shows the commonly-used AI-ESA categories and naming.
 |                        | Output               | Output                         |
 |                        | Note                 | Note                           |
 
-*Table 3: AI-ESA Element Categories and Alternative Names*
+*Table 3: AIS Element Categories and Alternative Names*
 
 ### Element Customization
 
-On top of the base (foundational) elements, AI-ESA allows the use of customized element notations (the *assistive* element category in the specification) to map foundational elements in an agile manner, enabling semantic normalization and canonical abstraction mapping for architectural interoperability. This approach supports easier adoption by allowing organizations to use familiar terminology while still conforming to the underlying ESA architectural abstractions, since most commonly used modeling elements can be mapped at the solution architecture level. For example, the assistive element *Cloud* can be mapped to *Node* or *Domain*, while *Microservice* can be mapped to *Application* or *Deployment Package*, depending on the architectural context.
+On top of the base (foundational) elements, AIS allows the use of customized element notations (the *assistive* element category in the specification) to map foundational elements in an agile manner, enabling semantic normalization and canonical abstraction mapping for architectural interoperability. This approach supports easier adoption by allowing organizations to use familiar terminology while still conforming to the underlying ESA architectural abstractions, since most commonly used modeling elements can be mapped at the solution architecture level. For example, the assistive element *Cloud* can be mapped to *Node* or *Domain*, while *Microservice* can be mapped to *Application* or *Deployment Package*, depending on the architectural context.
 
 In other words, organizations can preserve local terminology while aligning to the same architectural abstraction model. 
 
@@ -199,33 +199,33 @@ In other words, organizations can preserve local terminology while aligning to t
 
 ## Metamodel (Element Relationship) Specification
 
-The element metadata model is primarily shaped by considerations such as rigor, reproducibility, tooling support, machine readability, and AI interpretability. This section introduces three AI-ESA metamodels: the conceptual metamodel, the logical metamodel, and the schema model.
+The element metadata model is primarily shaped by considerations such as rigor, reproducibility, tooling support, machine readability, and AI interpretability. This section introduces three AIS metamodels: the conceptual metamodel, the logical metamodel, and the schema model.
 
-Note that for focused *AI Enterprise Solution Architecture* modeling, certain elements are excluded in the above element list, such as *Constraint, System, Message & Event,* and *Deliverable*. Some general-purpose elements are also intentionally omitted from the metamodel. 
+Note that for focused AIS modeling, certain elements are excluded in the above element list, such as *Constraint, System, Message & Event,* and *Deliverable*. Some general-purpose elements are also intentionally omitted from the metamodel. 
 
 ### Conceptual Metamodel
 
-The AI-ESA conceptual metamodel (Figure 1) defines architectural meaning and abstraction relationships.
+The AIS conceptual metamodel (Figure 1) defines architectural meaning and abstraction relationships.
 
 ![AI-ESA Conceptual Metamodel](images/ai-esa-conceptural-metamodel.png "AI-ESA Conceptual Metamodel")
 
-*Figure 1: AI-ESA Conceptual Metamodel*
+*Figure 1: AIS Conceptual Metamodel*
 
 ### Logical Metamodel
 
-The AI-ESA logical metamodel (Figure 2) defines operational interaction and runtime collaboration. 
+The AIS logical metamodel (Figure 2) defines operational interaction and runtime collaboration. 
 
 ![AI-ESA Logical Metamodel](images/ai-esa-logical-metamodel.png "AI-ESA Logical Metamodel")
 
-*Figure 2: AI-ESA Logical Metamodel*
+*Figure 2: AIS Logical Metamodel*
 
 ### Schema Model
 
-The AI-ESA schema model (Figure 3) defines implementable structural metadata and tool interoperability.
+The AIS schema model (Figure 3) defines implementable structural metadata and tool interoperability.
 
 ![AI-ESA Schema Model](images/ai-esa-schema.png "AI-ESA Schema Model")
 
-*Figure 3: AI-ESA Schema Model*
+*Figure 3: AIS Schema Model*
 
 The following presents the *Mermaid* code for the schema model.
 
@@ -365,25 +365,25 @@ System --> InterfaceContract
 
 ## View Specification
 
-As an element-first modeling approach, AI-ESA does not enforce a strict view specification. The core views typically include the **functional** view, **deployment mapping** view, and **intent & metrics** view (optional if the key elements are already represented in other views).
+As an element-first modeling approach, AIS does not enforce a strict view specification. The core views typically include the **functional** view, **deployment mapping** view, and **intent & metrics** view (optional if the key elements are already represented in other views).
 
 For a more comprehensive model, the recommended views may also include: capability mapping view, case scenario view, solution overview view (e.g., solution context, DevOps environment), integration view, information flow view, validation view, and operational view.
 
 ---
 
-## Related AI-ESA Architectural Approaches
+## Related AIS Architectural Approaches
 
-AI-ESA is primarily designed for modeling **AISA (AI Solution Architecture)** and **AASA (AI-Augmented Solution Architecture)**.
+AIS is primarily designed for modeling **AIS (AI Solution) Architecture** and **AIS+ (AI-Augmented Solution) Architecture**.
 
-For descriptions and examples of AISA and AASA, refer to their respective repositories: the AISA repository (see this [link](https://github.com/seniorgu/aisa/blob/main/docs/aisa-specification.md)) and the AASA repository (see this [link](https://github.com/seniorgu/aasa/blob/main/docs/aasa-specification.md)).
+For descriptions and examples of AIS and AIS+ architectures, refer to their respective repositories: the AIS arch repository (see this [link](https://github.com/seniorgu/aisa/blob/main/docs/aisa-specification.md)) and the AIS+ arch repository (see this [link](https://github.com/seniorgu/aasa/blob/main/docs/aasa-specification.md)).
 
-For the relationship and relevance among AI-ESA, AISA, and AASA, see this [link](https://github.com/seniorgu/ai-esa/blob/main/docs/relationship-of-ai-esa-to-aisa-and-aasa.md).
+For the relationship and relevance among AIS model spec, AIS arch, and AIS+ arch, see this [link](https://github.com/seniorgu/ai-esa/blob/main/docs/relationship-of-ai-esa-to-aisa-and-aasa.md).
 
 ---
 
 ## Relationships to Prevailing Models
 
-The following provides a brief comparison between Enterprise Solution Architecture (ESA) modeling and several related specifications and modeling approaches:
+The following provides a brief comparison between Enterprise Solution Architecture (ESA) modeling (on which AIS is based) and several related specifications and modeling approaches:
 
 - *UML* – Primarily a software engineering approach originating from object-oriented design and later extended to component-based design. It is largely implementation-centric.
 
@@ -391,7 +391,7 @@ The following provides a brief comparison between Enterprise Solution Architectu
 
 - *C4* – Primarily aimed at software architectural and component-based design. While effective for software structure visualization, it is not sufficient to address the full scope of enterprise solution architecture.
 
-It should also be noted that ESA is not intended to be:
+It should also be noted that AIS is not intended to be:
 
 - a business capability model, an enterprise architecture (EA) replacement, or similar framework
 
