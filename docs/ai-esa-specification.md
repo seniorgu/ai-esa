@@ -28,7 +28,7 @@ AI-ESA (loosly named AI-SA) extends the ESA modeling approach (also referred to 
 
 ---
 
-## Modeling Approach
+## Modeling Approach 
 
 AI-ESA follows the ESA modeling approach, which consists of six constituents: thinking framework, method specification (foundation specification), architectural styles, measurement criteria, governance techniques, and tool support derived from practical enterprise solution projects (see *References*). This document focuses only on the AI-ESA element specification, which is a subset of the broader ESA modeling approach.
 
