@@ -28,7 +28,7 @@ AI-ESA (loosly named AI-SA) extends the ESA modeling approach (also referred to 
 
 ---
 
-## Modeling Approach
+## Modeling Approach 
 
 AI-ESA follows the ESA modeling approach, which consists of six constituents: thinking framework, method specification (foundation specification), architectural styles, measurement criteria, governance techniques, and tool support derived from practical enterprise solution projects (see *References*). This document focuses only on the AI-ESA element specification, which is a subset of the broader ESA modeling approach.
 
@@ -56,7 +56,7 @@ The S3 principle serves as the governing philosophy of the ESA specification. It
 
 ---
 
-## Element Specification
+## Element Specification 
 
 As part of the ESA specification, AI-ESA inherits many core ESA elements while introducing AI-specific elements. To maintain simplicity, the total number of elements is intentionally kept minimal while still addressing both primitive constructs and higher levels of architectural abstraction. At the same time, AI-ESA is designed to function as a stand-alone specification, sufficient for general enterprise AI solution architecture purposes.
 
