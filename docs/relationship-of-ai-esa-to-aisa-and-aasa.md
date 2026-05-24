@@ -2,7 +2,7 @@
 
 This section briefly describes the relationship among AI-ESA (AI Enterprise Solution Architecture Model Specification), AISA (AI Solution Architecture Approach & Pattern), and AASA (AI-Augmented Solution Architecture Approach). Figure 1 shows the overall relationship.
 
-![Relationship of the AI-ESA Model Specification to AISA and AASA](../images/relationship-among-ai-esa-aisa-aasa.png "Relationship of the AI-ESA Model Specification to AISA and AASA")
+![Relationship of the AI-ESA Model Specification to AISA and AASA](images/relationship-among-ai-esa-aisa-aasa.png "Relationship of the AI-ESA Model Specification to AISA and AASA")
 
 *Figure 1: Relationship among AI-ESA, AISA and AASA*
 
