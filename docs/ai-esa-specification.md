@@ -1,4 +1,4 @@
-# AI-ESA (AI Enterprise Solution Architecture) Model Specification
+# AI Enterprise Solution Architecture (AI-ESA) Model Specification
 
 ---
 
