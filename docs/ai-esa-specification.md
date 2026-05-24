@@ -56,7 +56,7 @@ The S3 principle serves as the governing philosophy of the ESA specification. It
 
 ---
 
-## Element Specification
+## Element Specification 
 
 As part of the ESA specification, AI-ESA inherits many core ESA elements while introducing AI-specific elements. To maintain simplicity, the total number of elements is intentionally kept minimal while still addressing both primitive constructs and higher levels of architectural abstraction. At the same time, AI-ESA is designed to function as a stand-alone specification, sufficient for general enterprise AI solution architecture purposes.
 
