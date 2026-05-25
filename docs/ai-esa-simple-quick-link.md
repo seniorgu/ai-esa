@@ -1,4 +1,4 @@
-# AIS (AI Solution) Elements - A Quick Reference
+# ASA (AI Solution Architecture) Elements - A Quick Reference
 
 | **Category**           | **Name**             | **Prefix** | **Definition**                                                                                                                                         |
 | ---------------------- | -------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -41,7 +41,7 @@ Usage Notes
 
 - A *Bot* may be classified as either an AI Agent or an Autonomous Tool depending on its architectural role and decision-making scope. For example, a conversational bot with reasoning autonomy is generally an AI Agent; a rule-based, deterministic bot is generally an Autonomous Tool.
 
-- AIS is based on the *ESA specification*, extended with AI-specific elements, but uses only a subset of the foundational ESA elements for simplicity. The excluded ESA elements can be represented through alternative elements or relationship links. For example:
+- ASA is based on the *ESA specification*, extended with AI-specific elements, but uses only a subset of the foundational ESA elements for simplicity. The excluded ESA elements can be represented through alternative elements or relationship links. For example:
   
   - *Constraint* (e.g., problem, issue, risk, assumption) is represented as part of the *Requirement* element, or within the *Governance* element (e.g., compliance constraints).
   
@@ -53,6 +53,6 @@ Usage Notes
   
   - Solution management or software design elements such as *Deliverable* and *Artifact* are represented using *Output* or *Note* elements.&nbsp;
   
-  - Physical equipment and *Robotic Systems* are not core AIS elements. When relevant, they should be represented as *System Device* elements or external system actors.
+  - Physical equipment and *Robotic Systems* are not core ASA elements. When relevant, they should be represented as *System Device* elements or external system actors.
   
-  - Infrastructure concerns such as networks and storage topology are not core AIS elements, as they are peripheral to solution-level architecture. *Network* and *Location* elements are part of the broader ESA specification but are excluded from AIS scope.
+  - Infrastructure concerns such as networks and storage topology are not core ASA elements, as they are peripheral to solution-level architecture. *Network* and *Location* elements are part of the broader ESA specification but are excluded from ASA scope.
