@@ -1,6 +1,6 @@
-# Relationship of the ASA Model Specification to ASA and ASA+ Apporaches
+# Relationship of the ASA Model Specification to ASA and ASA+ Approaches
 
-This section briefly describes the relationship among ASA (AI Solution Architecture) model specification, ASA (AI Solution Architecture Approach & Pattern), and AIS+ (AI-Augmented Solution Architecture Approach). Figure 1 shows the overall relationship.
+This section briefly describes the relationship among ASA (AI Solution Architecture) model specification, ASA (AI Solution Architecture Approach & Pattern), and ASA+ (AI-Augmented Solution Architecture Approach). Figure 1 shows the overall relationship.
 
 ![ASA Relationships](images/asa-relationships.png "ASA Relationships")
 
@@ -8,7 +8,7 @@ This section briefly describes the relationship among ASA (AI Solution Architect
 
 ## ASA Model’s Emphasis on ASA and ASA+
 
-The ASA elements are used in both ASA and ASA+ approaches, but they differ in terms of primary emphasis, architectural centrality, and operational dominance. Table 1 illustrates how elements are prioritized across ASA and AIS+, categorized as primary, secondary, or shared/foundation elements.
+The ASA elements are used in both ASA and ASA+ approaches, but they differ in terms of primary emphasis, architectural centrality, and operational dominance. Table 1 illustrates how elements are prioritized across ASA and ASA+, categorized as primary, secondary, or shared/foundation elements.
 
 | **Element**          | **ASA Emphasis** | ASA+ Emphasis | **Notes**                                                     |
 | -------------------- | ---------------- | ------------- | ------------------------------------------------------------- |
@@ -47,7 +47,7 @@ The ASA elements are used in both ASA and ASA+ approaches, but they differ in te
 
 Note that AI-native does NOT mean "pure agents," or "everything autonomous."
 
-Real enterprise AI solutions still need:
+- Real enterprise AI solutions still need:
 
 - Orchestration and deterministic logic,
 
@@ -55,7 +55,7 @@ Real enterprise AI solutions still need:
 
 - Observability and operational control.
 
-Both ASA and ASA+ approaches use the ASA element specification for modeling. ASA focuses on AI-native and AI-primitive patterns, whereas AIS+ emphasizes AI-augmented solution architecture.
+Both ASA and ASA+ approaches use the ASA element specification for modeling. ASA focuses on AI-native and AI-primitive patterns, whereas ASA+ emphasizes AI-augmented solution architecture.
 
 ### Shared Core
 
@@ -73,9 +73,9 @@ Both ASA and ASA+ approaches use the ASA element specification and share a commo
 
 ### Key Differences
 
-Table 2 summarizes the key differences between ASA (AI-Native Solution Architecture) and AIS+ (AI-Augmented Solution Architecture) in their respective AI adoption strategies.
+Table 2 summarizes the key differences between ASA (AI-Native Solution Architecture) and ASA+ (AI-Augmented Solution Architecture) in their respective AI adoption strategies.
 
-| **Aspect**                     | **ASA(AI Solution Architecture)**                                      | **ASA+ (AI-Augmented Solution Architecture)**                                                   |
+| **Aspect**                     | **ASA (AI Solution Architecture)**                                     | **ASA+ (AI-Augmented Solution Architecture)**                                                   |
 | ------------------------------ | ---------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
 | Primary Orientation            | AI-native execution orientation                                        | Enterprise coexistence orientation                                                              |
 | Core Philosophy                | AI-first operationalization                                            | Gradual AI absorption and coexistence                                                           |
@@ -104,7 +104,7 @@ Or, more simply, their differences can be expressed as follows:
 
 - agent-first abstraction
 
-**AIS+**
+**ASA+**
 
 - enterprise coexistence
 
@@ -114,7 +114,7 @@ Or, more simply, their differences can be expressed as follows:
 
 - operational continuity
 
-In summary, ASA model serves as the foundational specification and semantic abstraction. ASA represents an AI-native architectural operationalization approach. AIS+, in contrast, is an enterprise architecture focused on AI coexistence and augmentation.
+In summary, ASA model serves as the foundational specification and semantic abstraction. ASA represents an AI-native architectural operationalization approach. ASA+, in contrast, is an enterprise architecture focused on AI coexistence and augmentation.
 
 ## About ASA Naming
 
@@ -128,15 +128,15 @@ Within this context:
 
 - **ASA Approach** = the AI-native architectural domain, approach, and practice
 
-- **AIS+** = the adaptive, integrative, and AI-augmented architectural extension approach
+- **ASA+** = the adaptive, integrative, and AI-augmented architectural extension approach
 
-For terminology alignment and continuity, AIS-related concepts may also be referred to as:
+For terminology alignment and continuity, ASA-related concepts may also be referred to as:
 
 - **AI-ESA** (AI Enterprise Solution Architecture), referring to the ASA model or framework foundation
 
 - **AISA** (AI Solution Architecture), referring to ASA approach
 
-- **AASA** (AI-Augmented Solution Architecture), referring to AIS+ approach
+- **AASA** (AI-Augmented Solution Architecture), referring to ASA+ approach
 
 In general usage, **ASA** represents the overall architectural language, framework family, and associated architectural landing approaches.
 

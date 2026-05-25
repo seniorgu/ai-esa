@@ -55,4 +55,4 @@ Usage Notes
   
   - Physical equipment and *Robotic Systems* are not core ASA elements. When relevant, they should be represented as *System Device* elements or external system actors.
   
-  - Infrastructure concerns such as networks and storage topology are not core AIS elements, as they are peripheral to solution-level architecture. *Network* and *Location* elements are part of the broader ESA specification but are excluded from ASA scope.
+  - Infrastructure concerns such as networks and storage topology are not core ASA elements, as they are peripheral to solution-level architecture. *Network* and *Location* elements are part of the broader ESA specification but are excluded from ASA scope.

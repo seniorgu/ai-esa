@@ -30,7 +30,7 @@ ASA (also referred to as AI-ESA) is based on the enterprise solution architectur
 
 ## Modeling Approach
 
-ASA follows its foundational ESA modeling approach, which consists of six constituents: thinking framework, method specification (foundation specification), architectural styles, measurement criteria, governance techniques, and tool support derived from practical enterprise solution projects (see *References*). This document focuses only on the AIS element specification, which is a subset of the broader ESA modeling approach.
+ASA follows its foundational ESA modeling approach, which consists of six constituents: thinking framework, method specification (foundation specification), architectural styles, measurement criteria, governance techniques, and tool support derived from practical enterprise solution projects (see *References*). This document focuses only on the ASA element specification, which is a subset of the broader ESA modeling approach.
 
 ### Principle
 
@@ -97,7 +97,7 @@ Table 1 provides a brief definition of 30 ASA elements, usage examples or instan
 | Output               | Represents the results, recommendations, and responses produced by the solution.                                                                     | Generated artifacts, predictions, recommendations, confirmations, decisions, reports, notifications, feedback to users, and results produced by the solution.                                                                                                                                                                                                                                                                                                                                                       |
 | Note                 | Represents commentary, annotation, or interpretive explanation of the architecture.                                                                  | Clarifying comments on complex interactions, interpretive notes, and contextual explanations added to views for enhanced communication.                                                                                                                                                                                                                                                                                                                                                                             |
 
-*Table 1:  AIS Element Definition*
+*Table 1:  ASA Element Definition*
 
 ### Element Representative Notation
 
@@ -136,7 +136,7 @@ Table 2 presents the recommended prefixes and iconic notations used in the ASA s
 | Output               | OU         | ![Output](images/OU.png "Output")                             |
 | Note                 | NT         | ![Note](images/NT.png "Note")                                 |
 
-*Table 2: AIS Element Representative Notation*
+*Table 2: ASA Element Representative Notation*
 
 ### Element Category & Naming
 
@@ -373,11 +373,11 @@ For a more comprehensive model, the recommended views may also include: capabili
 
 ## Related ASA Architectural Approaches
 
-ASA is primarily designed for modeling **ASA approach and pattern** and **AIS+ approach**.
+ASA is primarily designed for modeling **ASA approach and pattern** and **ASA+ approach**.
 
 For descriptions and examples of ASA and ASA+, refer to their respective repositories: the ASA repository (see this [link](https://github.com/seniorgu/aisa/blob/main/docs/aisa-specification.md)) and the ASA+ repository (see this [link](https://github.com/seniorgu/aasa/blob/main/docs/aasa-specification.md)).
 
-For the relationship and relevance among ASA model spec, ASA, and AIS+, see this [link](https://github.com/seniorgu/ai-esa/blob/main/docs/relationship-of-ai-esa-to-aisa-and-aasa.md).
+For the relationship and relevance among ASA model spec, ASA, and ASA+, see this [link](https://github.com/seniorgu/ai-esa/blob/main/docs/relationship-of-ai-esa-to-aasa-and-aasa.md).
 
 ---
 
