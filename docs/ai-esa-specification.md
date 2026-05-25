@@ -377,7 +377,7 @@ ASA is primarily designed for modeling **ASA approach and pattern** and **ASA+ a
 
 For descriptions and examples of ASA and ASA+, refer to their respective repositories: the ASA repository (see this [link](https://github.com/seniorgu/aisa/blob/main/docs/aisa-specification.md)) and the ASA+ repository (see this [link](https://github.com/seniorgu/aasa/blob/main/docs/aasa-specification.md)).
 
-For the relationship and relevance among ASA model spec, ASA, and ASA+, see this [link](https://github.com/seniorgu/ai-esa/blob/main/docs/relationship-of-ai-esa-to-aasa-and-aasa.md).
+For the relationship and relevance among ASA model spec, ASA, and ASA+, see this [link](https://github.com/seniorgu/ai-esa/blob/main/docs/relationship-of-ai-esa-to-aisa-and-aasa.md).
 
 ---
 
