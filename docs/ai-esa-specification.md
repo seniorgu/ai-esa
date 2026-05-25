@@ -1,4 +1,4 @@
-# AI Solution Architecture (ASA) Architecture Model Specification
+# AI Solution Architecture (ASA) Model Specification
 
 ---
 

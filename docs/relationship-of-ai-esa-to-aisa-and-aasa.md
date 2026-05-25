@@ -1,4 +1,4 @@
-# Relationship of the ASA Model Specification to ASA and ASA+ Approaches
+# Relationships Between the ASA Model and Its Approaches
 
 This section briefly describes the relationship among ASA (AI Solution Architecture) model specification, ASA (AI Solution Architecture Approach & Pattern), and ASA+ (AI-Augmented Solution Architecture Approach). Figure 1 shows the overall relationship.
 

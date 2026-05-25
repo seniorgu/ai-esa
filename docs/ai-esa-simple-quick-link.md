@@ -1,4 +1,4 @@
-# ASA (AI Solution Architecture) Elements - A Quick Reference
+# ASA (AI Solution Architecture) Elements - A Simple Reference
 
 | **Category**           | **Name**             | **Prefix** | **Definition**                                                                                                                                         |
 | ---------------------- | -------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
