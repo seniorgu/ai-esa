@@ -48,7 +48,7 @@ The S3 principle serves as the governing philosophy of the ASA specification. It
 
 - **Element-first approach**: The model uses simple yet panoramic elements to convey holistic architectural thinking, or a selected set of elements for significant scenarios, rather than being constrained to specific diagram views. 
 
-- **Node-style representation**: The model emphasizes key architectural element types, represented iconically along with their relationships, using clear prefixes and/or instance mapping to express architectural thinking instead of relying on verbose descriptions. 
+- **Node-style iconic notation**: The model emphasizes key architectural element types, represented iconically along with their relationships, using clear prefixes and/or instance mapping to express architectural thinking instead of relying on verbose descriptions. 
 
 - **Intersectional mapping**: The model highlights overlapping concerns across architecture and service layers. 
 
