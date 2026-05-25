@@ -8,7 +8,7 @@ The ASA model specification is designed to support enterprise-grade AI solution 
 
 ## Details
 
-<img title="AIS - AI Solution Logo" src="docs/images/ais-s.png" alt="AIS - AI Solution Logo" width="50"> *ASA* Modeling Approach
+<img title="AIS - AI Solution Logo" src="docs/images/asa-logo.png" alt="AIS - AI Solution Logo" width="50"> *ASA* Modeling Approach
 
 For the detailed specification, see this [link](docs/ai-esa-specification.md).
 
